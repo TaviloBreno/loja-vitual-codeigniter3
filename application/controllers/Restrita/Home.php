@@ -15,8 +15,8 @@ class Home extends CI_Controller
 			'titulo' => 'Painel de Controle',
 		);
 
-		//$this->load->view('restrita/layout/header', $data);
+		$this->load->view('restrita/layout/header', $data);
 		$this->load->view('restrita/home/index');
-		//$this->load->view('restrita/layout/footer');
+		$this->load->view('restrita/layout/footer');
 	}
 }
